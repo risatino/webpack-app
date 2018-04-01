@@ -3,18 +3,33 @@ body {
     margin: 0;
 }
 
-h1 {
-    height: 100vh;
-    color: white;
+.profile {
     display: flex;
-    font-size: 5em;
+    height: 75vh;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
+}
+
+h1 {    
+    color: white;
+    font-size: 5em;
     font-family: Sans-Serif;
     text-shadow: 0 0 20px orangered;
+}
+
+
+img {
+    border-radius: 100%;
+    width: 300px;
+    box-shadow: 0 0 20px silver;
 }
 
 .center-align-xxl {
     text-align: center;
     text-transform: uppercase;
+}
+
+.padding-portrait {
+    margin-top: 5em;
 }
